@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!--Used to determine the version of html w e are using-->
+<html lang = "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <title>Quiz Questions</title>
+        <style>
+            body {
+                background-image: url('../download.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                backdrop-filter:sepia(75%);
+            }
+            #foo{
+                position: relative;
+                top: 525px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <h1><em>Questions Lists</em></h1>
+            <h3>
+                <strong>Question1</strong>
+                <ul>
+                    <em>Who is that person?</em>
+                    <img src = "images.jpg" alt = "Edith" width = "100">
+                    <form>
+                        <input list="questions" placeholder="Pick a name" name="noanswer">
+                        <datalist id = "questions">
+                            <option value = "Agnis">
+                            <option value = "Edith">
+                            <option value = "Margo">
+                        </datalist>
+                    </form> 
+                </ul>
+            </h3>
+        </fieldset>
+        <p></p>
+        <fieldset id="foo">
+            <footer>
+                <h1>
+                    <strong>Links:</strong>
+                    <ul>
+                        <li><a href = "../CV_html_week3_activ1.html"><em style="color: black;">Main Page</em></a></li>
+                    </ul>
+                </h1>
+            </footer>
+        </fieldset>
+    </body>
+</html>
